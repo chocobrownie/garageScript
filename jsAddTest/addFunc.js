@@ -1,4 +1,4 @@
-const addNumbers = (a,b) => {
-  return a + b;
+const addNumbers = (addFirst,addSecond) => {
+  return addFirst + addSecond;
 }
 module.exports = addNumbers;

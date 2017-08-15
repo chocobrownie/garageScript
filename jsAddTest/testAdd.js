@@ -1,6 +1,6 @@
 const addNum = require("./addFunc.js");
-const testFunc = (a,b) => {
-  if (addNum(a,b) == (a+b)){
+const testFunc = (addOne,addTwo) => {
+  if (addNum(addOne,addTwo) == (addOne+addTwo)){
     console.log("correct");
   }else{
     console.log("wrong");
