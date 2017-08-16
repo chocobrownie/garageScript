@@ -12,6 +12,6 @@ app.get("/",(req,res) => {
         }
       });
   res.send(namesNotMe);
-    },);
+    });
 });
 
